@@ -1,0 +1,21 @@
+html, body {
+  font-family: Arial, sans-serif;
+  background: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding-top: 87px;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+
+
