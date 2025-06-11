@@ -1,8 +1,8 @@
 import { createMiddleware } from "next-intl/middleware";
 
 export default createMiddleware({
-  locales: ["en", "fr"],
-  defaultLocale: "en",
+  locales: ["cz", "ru", "ua"],
+  defaultLocale: "cz",
   localeDetection: false, // Disable automatic locale detection to respect selected locale
 });
 
