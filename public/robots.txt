@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://auto-master.vercel.app
+Host: https://auto-master-lake.vercel.app
 
 # Sitemaps
-Sitemap: https://auto-master.vercel.app/sitemap.xml
+Sitemap: https://auto-master-lake.vercel.app/sitemap.xml

@@ -2,7 +2,7 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://auto-master.vercel.app",
+  siteUrl: "https://auto-master-lake.vercel.app",
   generateRobotsTxt: true,
   changefreq: "daily",
   priority: 0.7,
