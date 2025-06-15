@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 import Brands from "@/components/Brands/Brands";
 
 import { useTranslations } from "next-intl";
@@ -16,27 +17,37 @@ export default function HomePage() {
  
 
    return (
+    <>
+     <Head>
+        <title>{t('seoTittle')}</title>
+        <meta name="description" content={t('seoTittle2')} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    <Wrapper>
+        <div>
+            <Title>
+                <span className="gradient">{t('highlight1')}</span> 
+            </Title>
+            <SubTitle>{t('tittle2')}</SubTitle>
+        </div>
+        <WrapperImage>
+            <Image src="/images/Garage.webp" alt="Garage" />
+        </WrapperImage>
+        <ButtonLocation/>
+        <ButtonPhone/>
+        <ListEngine/>
+        <ListElectric/>
+        <ListExhaust/>
+        <ListMaintenance/>
+        <ListChassis/>
+        <Brands/>
+    </Wrapper>
+    </>
+    
+
        
-            <Wrapper>
-                <div>
-                    <Title>
-                        <span className="gradient">{t('highlight1')}</span> 
-                    </Title>
-                    <SubTitle>{t('tittle2')}</SubTitle>
-                </div>
-                <WrapperImage>
-                    <Image src="/images/Garage.webp" alt="Garage" />
-                </WrapperImage>
-                <ButtonLocation/>
-                <ButtonPhone/>
-                <ListEngine/>
-                <ListElectric/>
-                <ListExhaust/>
-                <ListMaintenance/>
-                <ListChassis/>
-                <Brands/>
-            </Wrapper>
-        
     )
 }
 

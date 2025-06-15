@@ -2,7 +2,7 @@
   "meta": {
   "home": {
     "title": "Autoservis Brno – Opravy aut, STK Černovice | AutoMaster",
-    "description": "Spolehlivý autoservis v Brně (část Černovice). Opravy aut, výměna oleje, brzd, pneuservis, diagnostika. Zkušení automechanici, rychlý servis."
+    "description": "Spolehlivý autoservis v Brno (část Černovice). Opravy aut, výměna oleje, brzd, pneuservis, diagnostika. Zkušení automechanici, rychlý servis."
   },
   "brake": {
     "title": "Oprava brzd Brno – Výměna destiček a kotoučů | AutoMaster",
@@ -32,6 +32,8 @@
 ,
 
   "title": {
+    "seoTittle": "Autoservis Brno -Autoservis v Brně Černovice – Oprava brzd, motorů a diagnostika |AutoMaster",
+    "seoTittle2": "Kompletní servis a diagnostika a opravy aut v pohodlném termínu",
     "highlight1": "Náš autoservis vyřeší jakýkoli problém, který nastal s vaším vozem",
     "tittle2": "Servis začínáme během několika hodin po dodání vozidla do servisu."
   },
