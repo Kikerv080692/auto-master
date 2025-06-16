@@ -1,5 +1,4 @@
 "use client";
-import Head from "next/head";
 import Brands from "@/components/Brands/Brands";
 
 import { useTranslations } from "next-intl";
@@ -15,16 +14,9 @@ import ListChassis from "../ServiceNewList/ListChassis/ListChassis";
 export default function HomePage() {
   const t = useTranslations("translation.title");
  
-
    return (
     <>
-     <Head>
-        <title>{t('seoTittle')}</title>
-        <meta name="description" content={t('seoTittle2')} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  
     <Wrapper>
         <div>
             <Title>
